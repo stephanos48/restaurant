@@ -6,7 +6,20 @@
 -->
 <html lang="en"> 
 <head> 
-<title>Shiba Divas' Grub</title>	
+<title>Shiba Divas' Grub</title>
+<style>
+
+</style>
+<link rel="stylesheet" type="text/css" href="styles/restaurantStyles.css" />
+<link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
+<style>
+    label {
+    font-weight: bold;
+    }
+    form {
+        text-align: center;
+    }
+</style>	
 </head> 
 
 <body>
@@ -22,19 +35,21 @@
     </nav>
 
 <form>
-    Name: <input type="text" name="Name" /><br /><br />
-    Email: <input type="text" name="Email" /><br /><br />
-    Phone: <input type="text" name="Phone" /><br /><br />
+    <b>Name:</b> <input type="text" name="Name" /><br /><br />
+    <b>Email:</b> <input type="text" name="Email" /><br /><br />
+    <b>Phone:</b> <input type="text" name="Phone" /><br /><br />
+    <b>Reason for Inquiry:</b>
     <select name="catering">
             <option value="Catering">Catering</option>
             <option value="Private Party">Private Party</option>
             <option value="Feedback">Feedback</option>
             <option value="Other">Other</option>
     </select><br><br />
+    Additional Information:
     <textarea name="additionalInfo"></textarea><br /><br />
-    Have you been to the restaurant? <input type="radio" name="answer" value="NO" />No <input type="radio" name="answer" value="YES" />Yes <br /><br />
-    Best days to contact you:<input type="checkbox" name="M" value="M" unchecked/>M <input type="checkbox" name="T" value="T" unchecked/>T<input type="checkbox" name="W" value="W" unchecked/>W<input type="checkbox" name="Th" value="Th" unchecked/>Th <input type="checkbox" name="F" value="F" unchecked/>F <br /><br />
-    <input type="Submit" name="Send Request" /><br />
+    <b>Have you been to the restaurant? </b><input type="radio" name="answer" value="NO" />No <input type="radio" name="answer" value="YES" />Yes <br /><br />
+    <b>Best days to contact you:</b><input type="checkbox" name="M" value="M" unchecked/>M <input type="checkbox" name="T" value="T" unchecked/>T<input type="checkbox" name="W" value="W" unchecked/>W<input type="checkbox" name="Th" value="Th" unchecked/>Th <input type="checkbox" name="F" value="F" unchecked/>F <br /><br />
+    <input type="Submit" value="Send Request" /><br />
     </form>
 
     <footer> 

@@ -1,0 +1,30 @@
+header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Girassol', cursive; font-size: 48 px;
+  }
+
+  footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+  }
+
+  nav a:hover {
+    background-color: #fef9ff;
+    color: #5b7d87; 
+  }
+
+  nav a:active {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  nav a:visited {
+    color: #e4c3ad; 
+  }
+
+  nav {
+    text-align: center;
+  }
